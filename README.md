@@ -3,13 +3,7 @@ This contact form is useful to create quick functionality with formspree implime
 NO JS/PHP/AJAX
 Note that this form uses https://formspree.io/ as a third party.
 
-Please note some additional id's and classes are included.
+Please note some additional id's and classes are included in the formspree_form file.
 
-The primary form necessary is:
+The basic neccessary form is formspree_simple.
 
-<form action="https://formspree.io/your@email.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
